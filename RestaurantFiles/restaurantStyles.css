@@ -1,0 +1,13 @@
+
+a:link{
+color:green;
+}
+.menuClass{
+	float:left;
+	width:30%;
+}
+body{
+	border:solid;
+	text-align:center;
+	background-color:lightblue;
+}
