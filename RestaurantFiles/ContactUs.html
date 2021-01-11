@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Contact Us</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="
+			  sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </hr>
 <link rel="stylesheet" 
       type="text/css"
@@ -16,20 +20,39 @@
 <a href= "ContactUs.html">Contact Us<a/>
 <hr/>
 <form action="customer.html" method="POST">
-<p> Name: <input type="text" name="customerName" /><br /><P/>
- <p>Email: <input type="text" name="customerEmail" /><br /></p>
- <p>phone: <input type="text" name="customerNumber" /><br /></p>
- <P> for Enquiry:<select name="reason">
+<p> <b>Name:</b> <input type="text" name="customerName" /><br /><P/>
+ <p><b>Email:</b> <input type="text" name="customerEmail" /><br /></p>
+ <p><b>phone:</b> <input type="text" name="customerNumber" /><br /></p>
+ <P> <b>for Enquiry:</b><select name="reason">
         <option value="catering">catering</option>
         <option value="Private party">private party</option>
         <option value="Feedback">Feedback</option>
 		<option value="Other">Other</option>
     </select><br/></p>
- Additional information:<textarea rows="4" cols="50" name="mytextarea" /></textarea><br/>
- Have you been to the restaurant? &nbsp; <input type="radio" name="answer" value="NO" checked />No&nbsp;&nbsp;
+ <b>Additional information:</b><textarea rows="4" cols="50" name="mytextarea" /></textarea><br/>
+ <b>Have you been to the restaurant?</b>&nbsp; <input type="radio" name="answer" value="NO" checked />No&nbsp;&nbsp;
  <input type="radio" name="answer" value="Yes"/>Yes
+ <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="injera.jpg" width="100" height="100"> <b>We're opening a new location!</b>
+    </div>
+    <div class="carousel-item">
+      <img src="injera.jpg" width="100" height="100"><b>We're rolling out our seasonal menu, with special options for this season</b>
+    </div>
+    <div class="carousel-item">
+      <img class="injera" src="injera.jpg" width="100" height="100"> <b>The Drink of the Month is SG Special Brew</b>
+    </div>
+  </div>
+</div>
  <hr/>
 <footer> 1234 Main Rd, GreatCity, Heaven 771176 <br> 584-456-1234<footer/>
 <hr/>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
